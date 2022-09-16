@@ -57,6 +57,7 @@ _**Warning:** Be very careful in these special cases added to minimize some oper
 **control_type='Edit'**
 
 Can be edited diretly by action field with str value if value other than 1,2,3,4.
+Backend Type will uia.
 
 ![Win UI Control Input Data](README_3.png)
 
