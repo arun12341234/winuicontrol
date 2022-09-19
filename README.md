@@ -14,7 +14,7 @@
 * [Email](mailto:arunk@argos-labs.com) 
  
 ## Version Control 
-* [4.913.1323](setup.yaml)
+* [4.916.1639](setup.yaml)
 * Release Date: `September 13, 2022`
 
 ## Input (Required)
@@ -52,22 +52,21 @@ Action: -
 3. '3 for Double Click Input',
 4. '4 for Right Click Input'
 
-_**Warning:** Be very careful in these special cases added to minimize some operations do not work in the following cases._
-
+**Select Dropdown directly**
+#### Case 1 :- ComboBox have control_type='Edit'
 **control_type='Edit'**
 
-Can be edited diretly by action field with str value if value other than 1,2,3,4.
-Backend Type will uia.
+Dropdown Can be Selected directly by action field with dropdown value if value other than 1,2,3,4.
 
-![Win UI Control Input Data](README_3.png)
+![Win UI Control Input Data](README_5.png)
 
-**class_name='ComboBox'** 
+#### Case 1 :- ComboBox do not have control_type='Edit'
 
-Dropdown Can be Selected directly by action field with index value 0 to nth.<br>
-class_name must be ComboBox, the Backend Type will win32, and The title must not be duplicated.<br>
-The title must not be empty.
+**control_type='ComboBox'** 
 
-![Win UI Control Input Data](README_4.png)
+Dropdown Can be Selected directly by action field with dropdown value if value other than 1,2,3,4.
+
+![Win UI Control Input Data](README_6.png)
 
 ## Return Value
 
